@@ -1,12 +1,16 @@
-var Foo = class {
+var classA = class {
     constructor() {}
-    bar() {
+    foobar() {
         return "Hello world";
+    }
+    lorem() {
+        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc";
     }
 }
 
-let objFoo = new Foo();
-console.log(objFoo.bar());
+let objFoo = new classA();
+console.log(objFoo.foobar());
+console.log(objFoo.lorem());
 
 var classB = class { 
     constructor() {}
