@@ -8,6 +8,16 @@ var Foo = class {
 let objFoo = new Foo();
 console.log(objFoo.bar());
 
+var classB = class { 
+    constructor() {}
+    name() {
+        return "Sergio";
+    }
+}
+
+let objB = new classB();
+console.log(objB.name());
+
 var classC = class {
     constructor() {}
     lastname() {
