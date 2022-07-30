@@ -17,3 +17,13 @@ var classB = class {
 
 let objB = new classB();
 console.log(objB.name());
+
+var classC = class {
+    constructor() {}
+    lastname() {
+        return "Aguilar";
+    }
+}
+
+let objC = new classC();
+console.log(objC.lastname());
